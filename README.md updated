@@ -1,0 +1,40 @@
+## Step by step 
+
+## Task 1: Repository Setup
+## GitHub Repository Creation:
+I log in to my GitHub account.
+I went to  github and then I click on the "+" icon in the upper right corner.
+I select "New repository."
+With name  'PLPBasicGitAsstignment'.
+I put my description 'Plp scholarship'.
+I Click **"Create repository."**
+
+## Task 2: Local Setup
+Local Folder Setup:
+I create a new folder on my  local machine named PLPBasicGitAssignment.
+Open a  '**git bash'**  and I  navigate to the folder:
+## cd c:/Users/Dell/PLPBasicGitAssignment
+## Git Initialization:
+## git init
+## Connecting to GitHub:
+git remote add origin https://github.com/gbetibienvenu/PLPBasicGitAssignment.git
+
+## Task 3: Making Changes
+## Create a File:
+Inside my local folder, I create a new text file named hello.txt.
+Then I Add the following text to hello.txt:
+## Hello, Git!
+## Committing Changes:
+Stage the file for commit:
+## 1-git add hello.txt
+## 2-git commit -m "Add hello.txt with a greeting"
+
+## Task 4: Pushing to GitHub
+ Pushing to GitHub:
+ Push the committed changes to your GitHub repository:
+## git push -u origin main
+
+## Task 5: Verification
+Verify on GitHub:
+After all I went  to my  GitHub repository in my chrome browser.
+Then Verified  that the **hello.txt** file is visible and that the commit message **"Add hello.txt with a greeting"** is listed in the commit history.
